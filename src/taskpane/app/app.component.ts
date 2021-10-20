@@ -9,9 +9,10 @@ import "../../../assets/icon-80.png";
   templateUrl: "./app.component.html",
 })
 export default class AppComponent {
-  welcomeMessage = "Welcome";
+  sum = 0;
 
   async run() {
+    this.sum++;
     /**
      * Insert your Outlook code here
      */
